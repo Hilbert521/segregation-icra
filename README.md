@@ -1,11 +1,11 @@
-SEGREGATION-ICRA
+segregation-icra
 ================
 
-Source code accompanying the paper *Segregation of Multiple Heterogeneous Units in a Robotic Swarm* presented at ICRA2014 ([DOI][http://dx.doi.org/10.1109/ICRA.2014.6906993]).
+Source code of the paper **Segregation of Multiple Heterogeneous Units in a Robotic Swarm** presented at ICRA2014 ([DOI](http://dx.doi.org/10.1109/ICRA.2014.6906993)).
 
-<center>
+<p align="center">
 [![ICRA 2014 Video](https://img.youtube.com/vi/tN6yEOUU00I/hqdefault.jpg "ICRA 2014 Video")](https://www.youtube.com/watch?v=tN6yEOUU00I)
-</center>
+</p>
 
 Abstract
 --------
@@ -30,10 +30,10 @@ Source Files
 ------------
 
 Name            | Description
-----------------|----------------------------------------------
+----------------|-----------------------------------------------
+article/        |  LaTeX source files (use pdflatex to compile)
 segregation2d.m |  MATLAB example for swarm segregation in 2D
 segregation3d.m |  MATLAB example for swarm segregation in 3D
-article/        |  LaTeX source files (use pdflatex to compile)
 
 
 
