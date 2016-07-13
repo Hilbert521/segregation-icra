@@ -1,7 +1,7 @@
-*~
-*.aux
-*.bbl
-*.blg
-*.dvi
-*.log
-*.out
+/**/*~
+article/*.aux
+article/*.bbl
+article/*.blg
+article/*.dvi
+article/*.log
+article/*.out
