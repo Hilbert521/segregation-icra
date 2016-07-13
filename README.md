@@ -1,10 +1,12 @@
 segregation-icra
 ================
 
-Source code of the paper **Segregation of Multiple Heterogeneous Units in a Robotic Swarm** presented at ICRA2014 ([DOI](http://dx.doi.org/10.1109/ICRA.2014.6906993)).
+Source code of the paper **Segregation of Multiple Heterogeneous Units in a Robotic Swarm** presented at ICRA 2014, Hong Kong - China ([DOI](http://dx.doi.org/10.1109/ICRA.2014.6906993)).
 
 <p align="center">
-[![ICRA 2014 Video](https://img.youtube.com/vi/tN6yEOUU00I/hqdefault.jpg "ICRA 2014 Video")](https://www.youtube.com/watch?v=tN6yEOUU00I)
+   <a href="https://www.youtube.com/watch?v=tN6yEOUU00I">
+   <img src="https://img.youtube.com/vi/tN6yEOUU00I/hqdefault.jpg" alt="ICRA 2014 Video" title="ICRA 2014 Video" />
+   </a>
 </p>
 
 Abstract
