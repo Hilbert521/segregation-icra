@@ -75,14 +75,10 @@ while strcmp(get(simulation, 'currentch'), '')
     % Control equation.
     dV = alpha .* (dist - const + 1.0 ./ dist - const ./ dsqr);
     ax = - dV .* xij ./ dist - vxij;
-    ay = - dV .* yij ./ dist - vyij;
-    
-    % This gets rid of NaN because of division by zero.
-    ax(1:ROBOTS+1:end) = 0;
-    ay(1:ROBOTS+1:end) = 0;
+    ay = - dV .* yij ./ dist - vyij;        
       
     % a(i, :) -> acceleration input for robot i.
-    a = [sum(ax)' sum(ay)'];
+    a = [nansum(ax)' nansum(ay)'];
     
     % simple taylor expansion.
     q = q + v * dt + 0.5 * a * dt^2;
